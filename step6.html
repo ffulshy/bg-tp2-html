@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Histoire du Web — Thématique 3</title>
+    <title>Histoire du Web — Thématique 1</title>
   </head>
   <body>
     <header>
@@ -30,6 +30,7 @@
     </nav>
 
     <main>
+      <!-- THEMATIQUE 1 -->
       <section id="precursors">
         <h2>1. Précurseurs et idées fondatrices</h2>
 
@@ -40,7 +41,8 @@
             Vannevar Bush décrit dans son article fondateur le <strong>Memex</strong>, un système théorique d'archivage reliant des documents entre eux.
           </p>
           <figure>
-            <img src="ressources/bush.jpg" alt="Vannevar Bush et le Memex" width="300">
+            <!-- CORRECTION ICI : Vannevar_Bush.jpg -->
+            <img src="ressources/Vannevar_Bush.jpg" alt="Vannevar Bush et le Memex" width="300">
             <video controls width="300">
               <source src="ressources/memex.mp4" type="video/mp4">
               Votre navigateur ne supporte pas la vidéo.
@@ -61,8 +63,9 @@
             Ted Nelson invente le terme <strong>hypertexte</strong> et imagine le projet Xanadu pour relier mondialement des documents.
           </p>
           <figure>
-            <img src="ressources/nelson.jpg" alt="Ted Nelson" width="250">
-            <img src="ressources/xanadu.jpg" alt="Projet Xanadu" width="250">
+            <!-- CORRECTION ICI : ted_nelson.PNG et hypertext.png -->
+            <img src="ressources/ted_nelson.PNG" alt="Ted Nelson" width="250">
+            <img src="ressources/hypertext.png" alt="Projet Xanadu" width="250">
             <figcaption>
               Ted Nelson et la structure du projet Xanadu.
               <a href="https://fr.wikipedia.org/wiki/Ted_Nelson" target="_blank">Voir sa biographie (lien hypertexte)</a>
@@ -70,114 +73,119 @@
           </figure>
         </article>
 
-        <!-- Lien de retour au menu -->
         <p><a href="#menu">Retour au menu</a></p>
       </section>
+      
       <hr>
 
+      <      <!-- THEMATIQUE 2 (À ajouter dans step5.html) -->
       <section id="creation">
-        <h2>2. Naissance du Web – Tim Berners-Lee et premières implémentations</h2>
+        <h2>2. Naissance du Web — Tim Berners-Lee et premières implémentations</h2>
 
-        <!-- Premier article : CERN et Tim Berners-Lee -->
         <article>
           <h3>1989-1991 — Tim Berners-Lee au CERN : HTML, HTTP, URL</h3>
           <p>
-            Tim Berners-Lee propose, au CERN, un système pour partager des documents entre chercheurs en utilisant l'hypertexte et Internet.
+            Tim Berners-Lee propose au CERN un système pour partager des documents en utilisant l'hypertexte et Internet.
           </p>
+          
           <figure>
-            <img src="ressources/tbl.jpg" alt="Tim Berners-Lee au CERN" width="300">
+            <img src="ressources/Tim_Cern.jpg" alt="Tim Berners-Lee au CERN" width="300">
             <figcaption>
-              Source : <a href="https://home.cern/" target="_blank">Robert / CERN / Tim Berners-Lee</a>
-              <br>
-              En 1990, Tim Berners-Lee définit :
-              <ul>
-                <li><strong>HTML</strong> (HyperText Markup Language) — langage pour structurer documents et liens.</li>
-                <li><strong>HTTP</strong> (HyperText Transfer Protocol) — protocole d'échange client-serveur.</li>
-                <li><strong>URL</strong> (Uniform Resource Locator) — adressage des ressources sur le réseau.</li>
-              </ul>
+              Tim Berners-Lee au CERN.
+              <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Lien hypertexte vers sa biographie</a>
             </figcaption>
           </figure>
-          <p>En exemple d'une URL, <code>http://info.cern.ch</code> est le premier site web.</p>
-          <p>En 1991, la première page Web est mise en ligne. Tim Berners-Lee publie les logiciels de serveur et le premier navigateur.</p>
-        </article>
 
-        <!-- Deuxième article : Premiers navigateurs -->
-        <article>
-          <h3>1993-1994 — Premiers navigateurs graphiques : Mosaic et Netscape</h3>
-          <p>
-            Le navigateur <strong>Mosaic</strong> (1993) popularise l'affichage graphique d'images et de textes reliés.
-          </p>
-        </article>
-
-        <!-- Troisième article : Standardisation -->
-        <article>
-          <h3>1994-1996 — Standardisation et premiers moteurs de recherche</h3>
-          <p>
-            À mesure que le Web se répand, la nécessité de standards devient une priorité. Le <strong>W3C</strong> est fondé en 1994 par Tim Berners-Lee pour piloter ces évolutions.
-          </p>
-          <p>
-            Les premiers problèmes émergent : indexation, performance, sécurité, et modélisation des données sur le Web.
-          </p>
-        </article>
-
-        <!-- Lien de retour au menu -->
-        <p><a href="#menu">Retour au menu</a></p>
-      </section>
-      <hr>
-
-      <section id="semantic">
-        <h2>3. Le Web sémantique, Linked Data et Solid</h2>
-
-        <!-- Sous-partie 1 : Web sémantique -->
-        <article>
-          <h3>Le Web sémantique : objectif et composants</h3>
-          <p>
-            Le Web sémantique vise à donner un sens explicite aux données afin qu'elles puissent être traitées automatiquement par des machines.
-          </p>
+          <p>Il invente trois technologies fondamentales :</p>
+          <!-- Liste non ordonnée -->
           <ul>
-            <li><strong>RDF</strong> (Resource Description Framework) : modèle de données en triplets (Sujet, Prédicat, Objet).</li>
-            <li><strong>SPARQL</strong> : langage de requête pour interroger le Web de données.</li>
-            <li><strong>Ontologies (OWL)</strong> : définissent des structures et des relations sémantiques formelles.</li>
+            <li><strong>HTML</strong> (HyperText Markup Language) : langage pour structurer les documents</li>
+            <li><strong>HTTP</strong> (HyperText Transfer Protocol) : protocole de transfert</li>
+            <li><strong>URL</strong> (Uniform Resource Locator) : adresse unique d'une ressource</li>
           </ul>
         </article>
 
-        <!-- Sous-partie 2 : Linked Data -->
+        <article>
+          <h3>1993-1994 — Premiers navigateurs graphiques : Mosaic et Netscape</h3>
+          <p>
+            Le navigateur Mosaic (1993) popularise l'affichage graphique et les images.
+          </p>
+          <p>
+            Conséquence : l'arrivée de <strong>Mosaic</strong> et de <strong>Netscape</strong> rend le Web accessible au grand public.
+          </p>
+        </article>
+
+        <article>
+          <h3>1994-1996 — Standardisation et premiers moteurs de recherche</h3>
+          <p>
+            Le W3C est fondé pour standardiser les technologies du Web.
+          </p>
+        </article>
+
+        <!-- Lien de retour au menu (Point 6 du TP) -->
+        <p><a href="#menu">Remonter au menu</a></p>
+      </section>
+      
+      <hr>
+
+      <      <!-- THEMATIQUE 3 (À ajouter dans step6.html) -->
+      <section id="semantic">
+        <h2>3. Le Web sémantique, Linked Data et Solid</h2>
+
+        <article>
+          <h3>Le Web sémantique : objectifs et concepts</h3>
+          <p>
+            L'objectif est de rendre le Web compréhensible par les machines pour qu'elles puissent traiter automatiquement le sens des données (RDF, OWL, SPARQL).
+          </p>
+          
+          <figure>
+            <img src="ressources/LOD.png" alt="Schéma du Linked Open Data" width="400">
+            <figcaption>
+              Le nuage Linked Open Data (LOD).
+              <a href="https://fr.wikipedia.org/wiki/Linked_Data" target="_blank">En savoir plus sur le LOD</a>
+            </figcaption>
+          </figure>
+        </article>
+
         <article>
           <h3>Linked Data</h3>
           <p>
-            Tim Berners-Lee énonce les principes pour publier des données liées (Linked Data) : utiliser des URI, le protocole HTTP, et les standards sémantiques.
+            Le Linked Data est un ensemble de principes pour publier des données liées sur le Web.
           </p>
-          <figure>
-            <img src="ressources/linked_data.png" alt="Nuage Linked Open Data" width="400">
-            <figcaption>
-              Évolution du projet Linked Open Data (LOD) au fil des années.
-            </figcaption>
-          </figure>
         </article>
 
-        <!-- Sous-partie 3 : Solid -->
         <article>
           <h3>Solid (Social Linked Data)</h3>
           <p>
-            Initiative de Tim Berners-Lee visant à redonner le contrôle des données personnelles aux utilisateurs grâce à des "Pods" décentralisés.
+            Le Web a été conçu comme un espace ouvert. Tim Berners-Lee a inventé Solid pour redonner aux utilisateurs le contrôle de leurs données personnelles.
           </p>
+
           <figure>
-            <img src="ressources/solid_architecture.png" alt="Architecture du projet Solid" width="400">
+            <img src="ressources/solid.PNG" alt="Architecture de Solid" width="400">
             <figcaption>
-              Principe de séparation des données et des applications avec Solid.
+              Schéma explicatif du projet Solid de Tim Berners-Lee.
+              <a href="https://solidproject.org/" target="_blank">Visiter le site de Solid</a>
             </figcaption>
           </figure>
-          <p><strong>Avantages :</strong> souveraineté des données, séparation des données et des services, interopérabilité basée sur le Web sémantique.</p>
+        </article>
+
+        <article>
+          <h3>Ce que ces trois thématiques ont en commun</h3>
+          <p>
+            Un point commun est l'ambition de faire du Web un espace de connaissances structurées et accessibles.
+          </p>
         </article>
 
         <!-- Lien de retour au menu -->
-        <p><a href="#menu">Retour au menu</a></p>
+        <p><a href="#menu">Remonter au menu</a></p>
       </section>
+      
       <hr>
 
       <section id="resume">
-        <h2>Thématique 4</h2>
+        <h2>Thématique 4 : Résumé</h2>
       </section>
+      
       <hr>
     </main>
 
