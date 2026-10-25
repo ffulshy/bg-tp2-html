@@ -3,6 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Histoire du Web — Thématique 1</title>
+    <style>
+    table.dates-cles {
+      border-collapse: collapse;
+      margin: 1em 0;
+      font-family: sans-serif;
+    }
+    table.dates-cles th,
+    table.dates-cles td {
+      border: 1px solid #333;
+      padding: 6px 12px;
+      text-align: left;
+    }
+    table.dates-cles thead th {
+      background-color: #eaeaea;
+    }
+    table.dates-cles tbody tr:nth-child(even) {
+      background-color: #f7f7f7;
+    }
+    img { border: 0; }
+  </style>
   </head>
   <body>
     <header>
@@ -199,8 +219,8 @@
         <article>
           <h3>Tableau des dates clés</h3>
           <!-- Un tableau pour résumer, ce qui est très apprécié dans ce genre de TP -->
-          <table border="1">
-            <thead>
+
+           <table class="dates-cles">            <thead>
               <tr>
                 <th>Année</th>
                 <th>Événement marquant</th>
